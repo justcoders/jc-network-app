@@ -1,0 +1,2 @@
+json_key_file "./app/android-developer-c6e31d16e168.json" # Path to the json secret file - Follow https://github.com/fastlane/supply#setup to get one
+package_name "org.justcoders.network" # e.g. com.krausefx.app
