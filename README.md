@@ -1,2 +1,1 @@
-# jc-network-app
-JustCoders Network App
+# JustCoders Network App
