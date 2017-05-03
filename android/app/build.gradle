@@ -101,12 +101,14 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
 
+    def vcode = (int)(((new Date().getTime()/1000) - 1451606400) / 10)
+
     defaultConfig {
         applicationId "org.justcoders.network"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 1
-        versionName "1.0"
+        versionCode vcode
+        versionName "0.1.0." + vcode
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
